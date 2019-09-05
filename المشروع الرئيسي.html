@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>المشروع الرئيسي</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="project_css.css" />
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" /> 
+  <link rel="stylesheet" href="css/bootstrap.css"/>    
+  <link rel="stylesheet" href="css/bootstrap.min.css">    
+  <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="jquery.cycle2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>   
+  <style>
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .jumbotron {
+      background-color: #595959;
+      color: #fff;
+   
+      
+      
+      .carousel-caption{
+          color:black;
+          text-shadow: 2px 2px 8px #FF0000;
+      }      
+    
+  .carousel-inner img {
+      width: 100%; 
+      margin: auto;
+      min-height:200px;
+  }
+
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+      .search{width:200px;
+          height: 40px;
+         display: inline-block;
+      }
+      
+      .search i{
+            width:10px;
+            height: 30px;
+            font-size:10px;
+            text-align:center;
+    
+  }
+      
+}
+      
+  </style>
+</head>
+<body>
+
+    
+    
+    
+    <header>
+
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="logoImg"/> </a>
+
+
+        <div class="search">
+            <input type="text" placeholder="Search Here" />
+            <i class="fa fa-search"></i>
+        </div>
+        
+    </header>
+    
+     <!-- ......................................Navbar.....................................-->
+  <nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="mynav">
+			<ul class="nav navbar-nav">
+				<li><a href="#home"><i class="fa fa-home"  ></i></a></li>
+                <li><a href="buyPage.html">| Living room</a></li>
+                <li><a href="#buyPage.html">| Bed room</a></li>
+                <li><a href="buyPage.html">| Bath room</a></li>
+                <li><a href="buyPage.html">| Kitchen</a></li>
+                <li><a href="buyPage.html">| Kids room</a></li>
+                <li><a href="buyPage.html">| Office</a></li>
+                <li class="dropdown">
+                     
+                <button class="morebutton  dropdown-toggle" type="button" data-toggle="dropdown">More<span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="buyPage.html">Dining Room</a></li>
+                    <li><a href="buyPage.html">Wall Art</a></li>
+                    <li><a href="buyPage.html">Nursery Room</a></li>
+                  </ul>
+                
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+                <li><a href="#" data-toggle="modal" data-target="#mymodal"><span class="fa fa-sign-in"></span> Login</a></li>
+                <li><a href="#buyNow"><span class="fa fa-user"> SignUp</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+    
+    <div class="modal modal-dialog fade modal-sm" id="mymodal">
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">x</button>
+			<h4>Login</h4>
+		</div>
+		<div class="modal-body">
+			<form class="form-group">
+				User Name :<input type="text" class="text-primary"><hr>
+				 Password : <input type="password" class="text-primary">
+			</form>
+		</div>
+		<div class="modal-footer">
+			<button type="button" data-dismiss="modal" class="btn btn-default">close</button>
+			<button type="button"  class="btn btn-primary">Send</button>
+		</div>
+	</div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+     <!-- ......................................slide.....................................-->
+    
+    
+    
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="buyPage.html"><img  src="images/1.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+        <h3>Living Room</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+         <div class="item">
+        <a href="buyPage.html"><img  src="images/6.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Nursery Room</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <a href="buyPage.html"><img  src="images/2.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Kitchen</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+        
+         <div class="item">
+        <a href="buyPage.html"><img  src="images/3.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Dining Room</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+        
+         <div class="item">
+        <a href="buyPage.html"><img  src="images/4.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Bed Room</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+        
+        <div class="item">
+        <a href="buyPage.html"><img  src="images/9.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Wall Art</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+        
+         <div class="item">
+        <a href="buyPage.html"><img  src="images/5.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Kids Room</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+                
+         <div class="item">
+        <a href="buyPage.html"><img  src="images/7.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Office </h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+        
+         <div class="item">
+        <a href="buyPage.html"><img  src="images/8.jpg" alt="ggr"></a>
+        <div class="carousel-caption">
+          <h3>Bath Room</h3>
+          <p>Click On Pictuer For More...</p>
+        </div>      
+      </div>
+        
+         
+        
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="cycle-prev">&#60</span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="cycle-next">&#62</span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+    
+    
+    
+    
+    
+     <!-- ......................................body......................................-->
+    
+   <div class="jumbotron text-center">
+        <h3>What We Do ?</h3><br>
+  <img src="images/logo.png" class="logoImgbody"/> 
+  <p>We help you to choose your house design .</p> 
+   <p>   Buy furniture through e-shopping and you are sitting at home.</p> 
+     <p> The connection is free.</p> 
+        <a href="#buyNow"><button class="btn btn-warning">Buy now <i class="fa fa-shopping-cart"></i></button></a>
+  </div>
+  
+<div class="container text-center" id="buyNow">    
+  <div class="row">
+      <!-- ..................image gallary in body.................-->
+      
+      <div class="col-sm-4">
+        <a href="buyPage.html"><div class="thumbnail" data-toggle="tooltip" title="Click Here To Buy!">
+		<img src="images/kitchn%20room.jpg">
+			<div class="caption">
+				Kitchen 
+			</div>
+            </div></a>
+		</div>
+     
+    <div class="col-sm-4">
+        <a href="buyPage.html"><div class="thumbnail" data-toggle="tooltip" title="Click Here To Buy!">
+		<img src="images/living%20room.png">
+			<div class="caption">
+				Living Room
+			</div>
+            </div></a>
+		</div>
+   <div class="col-sm-4">
+        <a href="buyPage.html"><div class="thumbnail" data-toggle="tooltip" title="Click Here To Buy!">
+		<img src="images/kids%20room.jpg">
+			<div class="caption">
+				Kids Room
+			</div>
+            </div></a>
+		</div>
+  
+    <div class="col-sm-4">
+        <a href="buyPage.html"><div class="thumbnail" data-toggle="tooltip" title="Click Here To Buy!">
+		<img src="images/bath%20room.jpg">
+			<div class="caption">
+				Bath Room
+			</div>
+            </div></a>
+		</div>
+   
+    <div class="col-sm-4">
+        <a href="buyPage.html"><div class="thumbnail" data-toggle="tooltip" title="Click Here To Buy!">
+		<img src="images/bed%20room.jpg">
+			<div class="caption">
+				Bed Room
+			</div>
+            </div></a>
+		</div>
+   <div class="col-sm-4">
+        <a href="buyPage.html"><div class="thumbnail" data-toggle="tooltip" title="Click Here To Buy!">
+		<img src="images/offece%20room.jpg">
+			<div class="caption">
+				Office 
+			</div>
+            </div></a>
+		</div>
+      
+      
+</div><br>
+
+
+    </div>
+<footer class="container-fluid text-center">
+  <form class="form-inline" id="sign" >
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+    <div class="col-sm-4">
+    <h4>Call Us</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Bagdad</p>
+        <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+        <p><i class="fa fa-fw fa-envelope"></i> ex@mail.com</p>
+    </div><br/>
+    <div class="col-sm-4">
+    <h4>We Accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+    </div>
+        <br>
+    <div class="col-sm-4">
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+    </div>
+    </footer>
+
+</body>
+</html>
